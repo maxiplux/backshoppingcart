@@ -1,0 +1,7 @@
+name: maxipluxshoppingcart
+path: target/service.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+services:
+- database
+#cf push maxipluxshoppingcart -p target\service.jar
